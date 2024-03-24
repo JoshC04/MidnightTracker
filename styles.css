@@ -1,0 +1,97 @@
+/*  Body    */
+
+body {
+  background-color: #124673;
+}
+
+/* Typography */
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+  color: #e9ebf2;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  color: #e9ebf2;
+}
+
+.basic_typo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #124673;
+  padding: 5px;
+  border-radius: 5px;
+  color: #e9ebf2;
+}
+
+#updater {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  color: #e9ebf2;
+  background-color: #0d7ad9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Dividers */
+
+#add_clock {
+  background: #0d7ad9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#add_counter {
+  background: #0d7ad9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.clock {
+  background: #0d0b09;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Random */
+
+.clock-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.image-holder {
+  width: 100%;
+}
+
+/* Media Query */
+
+@media (max-width: 600px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  .clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+  }
+}
